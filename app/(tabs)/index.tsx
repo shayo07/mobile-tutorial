@@ -12,8 +12,6 @@ export default function App() {
       <Link href="/onboarding" className="mt-4 font-sans-bold rounded bg-primary text-white px-4 py-2"> go to onboarding </Link>
       <Link href="/sign-in" className="mt-4 font-sans-bold rounded bg-primary text-white px-4 py-2"> go to sign in </Link>
       <Link href="/sign-up" className="mt-4 font-sans-bold rounded bg-primary text-white px-4 py-2"> go to sign up </Link>
-      <Link href="/subscriptions/spotify" className="mt-4 font-sans-bold rounded bg-primary text-white px-4 py-2"> go to subscription details </Link>
-      <Link href={{ pathname: "/subscriptions/[id]", params: { id: "spotify" } }} className="mt-4 font-sans-bold rounded bg-primary text-white px-4 py-2"> go to subscription details with params </Link>
     </SafeAreaView>
   );
 }
